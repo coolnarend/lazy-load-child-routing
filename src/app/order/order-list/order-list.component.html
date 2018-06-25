@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+
+  <div class="col-xs-12">
+    <h1>Order list</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, repellat culpa! Illo quisquam ratione officiis praesentium! Minus, recusandae eos? Ex consequatur maiores molestias tempore quibusdam! A quod expedita consequuntur eligendi.</p>
+  </div>
+  
+  <div class="col-xs-4">
+    <ul class="nav nav-pills nav-stacked">
+      <li routerLinkActive="active">
+        <a [routerLink]="['detail1']">order detail 1</a>
+      </li>   
+      <li routerLinkActive="active">
+        <a [routerLink]="['detail2']">order detail 2</a>
+      </li>
+    </ul>
+  </div>        
+  
+  <div class="col-xs-8">
+    <router-outlet></router-outlet>
+  </div>
+  
+  </div></div>
